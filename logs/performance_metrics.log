@@ -374,3 +374,477 @@
 2025-12-22 14:15:13,759 - Knowledge - INFO - [WEBSOCKET] Sent: Type=progress_update, Size: 268, Duration: 0ms
 2025-12-22 14:15:13,970 - Knowledge - INFO - Saving knowledge to Redis...
 2025-12-22 14:15:14,182 - Knowledge - INFO - Knowledge saved to Redis successfully
+2025-12-23 05:23:41,925 - Knowledge - INFO - Created shared MongoDB connection pool
+2025-12-23 05:23:42,274 - Knowledge - INFO - Starting Knowledge Graph processing with 20 threads
+2025-12-23 05:23:42,455 - Knowledge - INFO - Initial configuration: chunk_size=65536, max_cache_size=500
+2025-12-23 05:23:42,667 - Knowledge - INFO - Knowledge Graph concurrency configuration: workers=20, max_batch_size=10, max_concurrent_llm_calls=50
+2025-12-23 05:23:43,577 - Knowledge - INFO - 🔍 _load_persisted_knowledge called - checking for Redis optimization
+2025-12-23 05:23:43,757 - Knowledge - WARNING - ❌ load_from_redis method not found - Redis support not attached
+2025-12-23 05:23:43,925 - Knowledge - INFO - load persisted knowledge: begin
+2025-12-23 05:23:44,631 - Knowledge - INFO - Persisted knowledge files in /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/.knowledge have been renamed to use .json
+2025-12-23 05:23:44,879 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:23:45,133 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:23:45,469 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:23:45,667 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:23:45,827 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/Properties/AssemblyInfo.cs
+2025-12-23 05:23:46,125 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 79ms
+2025-12-23 05:23:47,194 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/Properties/AssemblyInfo.cs, Duration: 886ms
+2025-12-23 05:23:47,371 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/Properties/AssemblyInfo.cs
+2025-12-23 05:23:47,558 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/Properties/AssemblyInfo.cs
+2025-12-23 05:23:47,725 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:23:47,892 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:23:48,149 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:23:48,319 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:23:48,505 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/AdminLeaderboard.aspx.cs
+2025-12-23 05:23:48,799 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 83ms
+2025-12-23 05:23:49,214 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/AdminLeaderboard.aspx.cs, Duration: 223ms
+2025-12-23 05:23:49,424 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/AdminLeaderboard.aspx.cs
+2025-12-23 05:23:49,597 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/AdminLeaderboard.aspx.cs
+2025-12-23 05:23:49,775 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:23:49,933 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:23:50,159 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:23:50,332 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:23:50,504 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/AdminCourseQueue.aspx.designer.cs
+2025-12-23 05:23:50,759 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2025-12-23 05:23:51,157 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/AdminCourseQueue.aspx.designer.cs, Duration: 234ms
+2025-12-23 05:23:51,406 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/AdminCourseQueue.aspx.designer.cs
+2025-12-23 05:23:51,594 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/AdminCourseQueue.aspx.designer.cs
+2025-12-23 05:23:51,760 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:23:51,957 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:23:52,173 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:23:52,359 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:23:52,522 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/AdminQueue.aspx.cs
+2025-12-23 05:23:52,784 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 81ms
+2025-12-23 05:23:53,172 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/AdminQueue.aspx.cs, Duration: 211ms
+2025-12-23 05:23:53,321 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/AdminQueue.aspx.cs
+2025-12-23 05:23:53,491 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/AdminQueue.aspx.cs
+2025-12-23 05:23:53,689 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:23:53,874 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:23:54,123 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:23:54,314 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:23:54,545 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/TheorySet.aspx.designer.cs
+2025-12-23 05:23:54,821 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 82ms
+2025-12-23 05:23:55,242 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/TheorySet.aspx.designer.cs, Duration: 219ms
+2025-12-23 05:23:55,458 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/TheorySet.aspx.designer.cs
+2025-12-23 05:23:55,632 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/TheorySet.aspx.designer.cs
+2025-12-23 05:23:55,792 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:23:55,952 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:23:56,189 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:23:56,410 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:23:56,559 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/EditMCQ.aspx.designer.cs
+2025-12-23 05:23:56,837 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 85ms
+2025-12-23 05:23:57,281 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/EditMCQ.aspx.designer.cs, Duration: 253ms
+2025-12-23 05:23:57,477 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/EditMCQ.aspx.designer.cs
+2025-12-23 05:23:57,660 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/EditMCQ.aspx.designer.cs
+2025-12-23 05:23:57,865 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:23:58,032 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:23:58,285 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:23:58,455 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:23:58,637 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/LoginPage.aspx.cs
+2025-12-23 05:23:58,893 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 80ms
+2025-12-23 05:23:59,428 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/LoginPage.aspx.cs, Duration: 303ms
+2025-12-23 05:23:59,587 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/LoginPage.aspx.cs
+2025-12-23 05:23:59,752 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/LoginPage.aspx.cs
+2025-12-23 05:23:59,957 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:00,162 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:00,401 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:00,585 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:00,772 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/database-script/Online-Examination-System-Databse-Script.sql
+2025-12-23 05:24:01,022 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2025-12-23 05:24:01,438 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: database-script/Online-Examination-System-Databse-Script.sql, Duration: 207ms
+2025-12-23 05:24:01,664 - Knowledge - INFO - persist search terms embedding for database-script/Online-Examination-System-Databse-Script.sql
+2025-12-23 05:24:01,860 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/database-script/Online-Examination-System-Databse-Script.sql
+2025-12-23 05:24:02,038 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:02,215 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:02,484 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:02,653 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:02,888 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/TheoryExam.aspx.cs
+2025-12-23 05:24:03,221 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 89ms
+2025-12-23 05:24:03,646 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/TheoryExam.aspx.cs, Duration: 264ms
+2025-12-23 05:24:03,793 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/TheoryExam.aspx.cs
+2025-12-23 05:24:03,991 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/TheoryExam.aspx.cs
+2025-12-23 05:24:04,224 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:04,388 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:04,709 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:04,879 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:05,070 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/TakenCourses.aspx.designer.cs
+2025-12-23 05:24:05,353 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 105ms
+2025-12-23 05:24:06,314 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/TakenCourses.aspx.designer.cs, Duration: 790ms
+2025-12-23 05:24:06,523 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/TakenCourses.aspx.designer.cs
+2025-12-23 05:24:06,715 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/TakenCourses.aspx.designer.cs
+2025-12-23 05:24:06,907 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:07,102 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:07,344 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:07,538 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:07,696 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/SetExam.aspx.designer.cs
+2025-12-23 05:24:07,984 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 94ms
+2025-12-23 05:24:08,418 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/SetExam.aspx.designer.cs, Duration: 252ms
+2025-12-23 05:24:08,576 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/SetExam.aspx.designer.cs
+2025-12-23 05:24:08,755 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/SetExam.aspx.designer.cs
+2025-12-23 05:24:08,974 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:09,192 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:09,485 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:09,653 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:09,833 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/ShowAns.aspx.designer.cs
+2025-12-23 05:24:10,091 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 104ms
+2025-12-23 05:24:10,504 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/ShowAns.aspx.designer.cs, Duration: 224ms
+2025-12-23 05:24:10,696 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/ShowAns.aspx.designer.cs
+2025-12-23 05:24:10,861 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/ShowAns.aspx.designer.cs
+2025-12-23 05:24:11,030 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:11,188 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:11,439 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:11,624 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:11,811 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/SignUpPage.aspx.designer.cs
+2025-12-23 05:24:12,107 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 99ms
+2025-12-23 05:24:12,517 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/SignUpPage.aspx.designer.cs, Duration: 200ms
+2025-12-23 05:24:12,711 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/SignUpPage.aspx.designer.cs
+2025-12-23 05:24:12,924 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/SignUpPage.aspx.designer.cs
+2025-12-23 05:24:13,137 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:13,322 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:13,562 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:13,733 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:13,909 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/DownloadPdf.aspx.cs
+2025-12-23 05:24:14,237 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 93ms
+2025-12-23 05:24:14,655 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/DownloadPdf.aspx.cs, Duration: 215ms
+2025-12-23 05:24:14,844 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/DownloadPdf.aspx.cs
+2025-12-23 05:24:15,020 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/DownloadPdf.aspx.cs
+2025-12-23 05:24:15,240 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:15,437 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:15,744 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:15,928 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:16,070 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/ExamResult.aspx.cs
+2025-12-23 05:24:16,366 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 96ms
+2025-12-23 05:24:16,752 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/ExamResult.aspx.cs, Duration: 220ms
+2025-12-23 05:24:16,965 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/ExamResult.aspx.cs
+2025-12-23 05:24:17,171 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/ExamResult.aspx.cs
+2025-12-23 05:24:17,389 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:17,577 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:17,874 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:18,049 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:18,265 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/EditTheory.aspx.designer.cs
+2025-12-23 05:24:18,527 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 91ms
+2025-12-23 05:24:18,952 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/EditTheory.aspx.designer.cs, Duration: 242ms
+2025-12-23 05:24:19,184 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/EditTheory.aspx.designer.cs
+2025-12-23 05:24:19,382 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/EditTheory.aspx.designer.cs
+2025-12-23 05:24:19,575 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:19,758 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:20,081 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:20,304 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:20,496 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/EditExam.aspx.designer.cs
+2025-12-23 05:24:20,826 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 115ms
+2025-12-23 05:24:21,263 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/EditExam.aspx.designer.cs, Duration: 241ms
+2025-12-23 05:24:21,455 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/EditExam.aspx.designer.cs
+2025-12-23 05:24:21,644 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/EditExam.aspx.designer.cs
+2025-12-23 05:24:21,819 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:21,974 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:22,190 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:22,399 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:22,563 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/UserProfile.aspx.cs
+2025-12-23 05:24:22,841 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2025-12-23 05:24:23,246 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/UserProfile.aspx.cs, Duration: 216ms
+2025-12-23 05:24:23,420 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/UserProfile.aspx.cs
+2025-12-23 05:24:23,587 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/UserProfile.aspx.cs
+2025-12-23 05:24:23,765 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:23,926 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:24,177 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:24,341 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:24,547 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/Dashboard.aspx.cs
+2025-12-23 05:24:24,828 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 94ms
+2025-12-23 05:24:25,203 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/Dashboard.aspx.cs, Duration: 204ms
+2025-12-23 05:24:25,373 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/Dashboard.aspx.cs
+2025-12-23 05:24:25,540 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/Dashboard.aspx.cs
+2025-12-23 05:24:25,710 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:25,901 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:26,162 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:26,335 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:26,522 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/StartExam.aspx.designer.cs
+2025-12-23 05:24:26,815 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 92ms
+2025-12-23 05:24:27,432 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/StartExam.aspx.designer.cs, Duration: 420ms
+2025-12-23 05:24:27,597 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/StartExam.aspx.designer.cs
+2025-12-23 05:24:27,801 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/StartExam.aspx.designer.cs
+2025-12-23 05:24:28,013 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:28,188 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:28,497 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:28,679 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:28,849 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/AdminPanel.aspx.designer.cs
+2025-12-23 05:24:29,132 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 92ms
+2025-12-23 05:24:29,599 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/AdminPanel.aspx.designer.cs, Duration: 270ms
+2025-12-23 05:24:29,781 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/AdminPanel.aspx.designer.cs
+2025-12-23 05:24:29,970 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/AdminPanel.aspx.designer.cs
+2025-12-23 05:24:30,184 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:30,362 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:30,647 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:30,828 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:30,976 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0/lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+2025-12-23 05:24:31,241 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 94ms
+2025-12-23 05:24:31,730 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0/lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml, Duration: 294ms
+2025-12-23 05:24:31,918 - Knowledge - INFO - persist search terms embedding for packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0/lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+2025-12-23 05:24:32,147 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0/lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+2025-12-23 05:24:32,322 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:32,536 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:32,789 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:33,010 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:33,218 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/Leaderboard.aspx.designer.cs
+2025-12-23 05:24:33,527 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 86ms
+2025-12-23 05:24:33,921 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/Leaderboard.aspx.designer.cs, Duration: 207ms
+2025-12-23 05:24:34,149 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/Leaderboard.aspx.designer.cs
+2025-12-23 05:24:34,356 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/Leaderboard.aspx.designer.cs
+2025-12-23 05:24:34,572 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:34,756 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:35,006 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:35,181 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:35,394 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/MCQSet.aspx.designer.cs
+2025-12-23 05:24:35,662 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 115ms
+2025-12-23 05:24:36,252 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/MCQSet.aspx.designer.cs, Duration: 369ms
+2025-12-23 05:24:36,456 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/MCQSet.aspx.designer.cs
+2025-12-23 05:24:36,652 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/MCQSet.aspx.designer.cs
+2025-12-23 05:24:36,900 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:37,066 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:37,328 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:37,500 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:37,700 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/MCQExam.aspx.cs
+2025-12-23 05:24:37,958 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 94ms
+2025-12-23 05:24:38,362 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/MCQExam.aspx.cs, Duration: 224ms
+2025-12-23 05:24:38,568 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/MCQExam.aspx.cs
+2025-12-23 05:24:38,775 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/MCQExam.aspx.cs
+2025-12-23 05:24:38,944 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:39,126 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:39,367 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:39,579 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:39,785 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/AdminCourseQueue.aspx.cs
+2025-12-23 05:24:40,059 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 116ms
+2025-12-23 05:24:40,543 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/AdminCourseQueue.aspx.cs, Duration: 243ms
+2025-12-23 05:24:40,753 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/AdminCourseQueue.aspx.cs
+2025-12-23 05:24:40,942 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/AdminCourseQueue.aspx.cs
+2025-12-23 05:24:41,144 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:41,304 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:41,603 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:41,785 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:41,953 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/CSS/bootstrap.css
+2025-12-23 05:24:42,220 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 101ms
+2025-12-23 05:24:42,756 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/CSS/bootstrap.css, Duration: 339ms
+2025-12-23 05:24:42,946 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/CSS/bootstrap.css
+2025-12-23 05:24:43,138 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/CSS/bootstrap.css
+2025-12-23 05:24:43,323 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:43,497 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:43,755 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:43,979 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:44,201 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/UserProfile.aspx.designer.cs
+2025-12-23 05:24:44,450 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 89ms
+2025-12-23 05:24:44,946 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/UserProfile.aspx.designer.cs, Duration: 276ms
+2025-12-23 05:24:45,124 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/UserProfile.aspx.designer.cs
+2025-12-23 05:24:45,329 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/UserProfile.aspx.designer.cs
+2025-12-23 05:24:45,498 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:45,696 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:45,998 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:46,171 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:46,363 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/Dashboard.aspx.designer.cs
+2025-12-23 05:24:46,614 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 96ms
+2025-12-23 05:24:47,049 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/Dashboard.aspx.designer.cs, Duration: 235ms
+2025-12-23 05:24:47,213 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/Dashboard.aspx.designer.cs
+2025-12-23 05:24:47,389 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/Dashboard.aspx.designer.cs
+2025-12-23 05:24:47,563 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:47,761 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:48,026 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:48,206 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:48,371 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/TakenCourses.aspx.cs
+2025-12-23 05:24:48,619 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 92ms
+2025-12-23 05:24:49,054 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/TakenCourses.aspx.cs, Duration: 228ms
+2025-12-23 05:24:49,251 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/TakenCourses.aspx.cs
+2025-12-23 05:24:49,465 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/TakenCourses.aspx.cs
+2025-12-23 05:24:49,693 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:49,864 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:50,115 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:50,290 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:50,525 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/SetExam.aspx.cs
+2025-12-23 05:24:50,775 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 90ms
+2025-12-23 05:24:51,240 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/SetExam.aspx.cs, Duration: 278ms
+2025-12-23 05:24:51,443 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/SetExam.aspx.cs
+2025-12-23 05:24:51,647 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/SetExam.aspx.cs
+2025-12-23 05:24:51,818 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:52,019 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:52,291 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:52,459 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:52,657 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/EditMCQ.aspx.cs
+2025-12-23 05:24:52,931 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 90ms
+2025-12-23 05:24:53,355 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/EditMCQ.aspx.cs, Duration: 194ms
+2025-12-23 05:24:53,546 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/EditMCQ.aspx.cs
+2025-12-23 05:24:53,736 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/EditMCQ.aspx.cs
+2025-12-23 05:24:53,913 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:54,100 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:54,390 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:54,617 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:54,800 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/TheorySet.aspx.cs
+2025-12-23 05:24:55,100 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 86ms
+2025-12-23 05:24:55,478 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/TheorySet.aspx.cs, Duration: 209ms
+2025-12-23 05:24:55,678 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/TheorySet.aspx.cs
+2025-12-23 05:24:55,835 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/TheorySet.aspx.cs
+2025-12-23 05:24:56,001 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:56,208 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:56,494 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:56,653 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:56,817 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/ShowAns.aspx.cs
+2025-12-23 05:24:57,097 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2025-12-23 05:24:57,515 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/ShowAns.aspx.cs, Duration: 242ms
+2025-12-23 05:24:57,715 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/ShowAns.aspx.cs
+2025-12-23 05:24:57,912 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/ShowAns.aspx.cs
+2025-12-23 05:24:58,103 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:58,263 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:58,504 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:24:58,705 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:24:58,893 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/SignUpPage.aspx.cs
+2025-12-23 05:24:59,204 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 99ms
+2025-12-23 05:24:59,607 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/SignUpPage.aspx.cs, Duration: 213ms
+2025-12-23 05:24:59,822 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/SignUpPage.aspx.cs
+2025-12-23 05:25:00,039 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/SignUpPage.aspx.cs
+2025-12-23 05:25:00,214 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:25:00,412 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:25:00,671 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:25:00,851 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:25:01,038 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/README.md
+2025-12-23 05:25:01,324 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2025-12-23 05:25:01,774 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: README.md, Duration: 260ms
+2025-12-23 05:25:01,951 - Knowledge - INFO - persist search terms embedding for README.md
+2025-12-23 05:25:02,206 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/README.md
+2025-12-23 05:25:02,380 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:25:02,533 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:25:02,807 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:25:02,981 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:25:03,172 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/MCQExam.aspx.designer.cs
+2025-12-23 05:25:03,470 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 107ms
+2025-12-23 05:25:04,004 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/MCQExam.aspx.designer.cs, Duration: 322ms
+2025-12-23 05:25:04,184 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/MCQExam.aspx.designer.cs
+2025-12-23 05:25:04,377 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/MCQExam.aspx.designer.cs
+2025-12-23 05:25:04,585 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:25:04,805 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:25:05,050 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:25:05,288 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:25:05,461 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/database-script/README.md
+2025-12-23 05:25:05,765 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 121ms
+2025-12-23 05:25:06,258 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: database-script/README.md, Duration: 265ms
+2025-12-23 05:25:06,424 - Knowledge - INFO - persist search terms embedding for database-script/README.md
+2025-12-23 05:25:06,587 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/database-script/README.md
+2025-12-23 05:25:06,798 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:25:06,967 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:25:07,192 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:25:07,397 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:25:07,601 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/DownloadPdf.aspx.designer.cs
+2025-12-23 05:25:07,859 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 89ms
+2025-12-23 05:25:08,238 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/DownloadPdf.aspx.designer.cs, Duration: 203ms
+2025-12-23 05:25:08,432 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/DownloadPdf.aspx.designer.cs
+2025-12-23 05:25:08,593 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/DownloadPdf.aspx.designer.cs
+2025-12-23 05:25:08,769 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:25:08,960 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:25:09,270 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:25:09,475 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:25:09,635 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/EditExam.aspx.cs
+2025-12-23 05:25:09,934 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 89ms
+2025-12-23 05:25:10,367 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/EditExam.aspx.cs, Duration: 228ms
+2025-12-23 05:25:10,577 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/EditExam.aspx.cs
+2025-12-23 05:25:10,753 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/EditExam.aspx.cs
+2025-12-23 05:25:10,958 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:25:11,113 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:25:11,413 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:25:11,562 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:25:11,767 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/EditTheory.aspx.cs
+2025-12-23 05:25:12,002 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 86ms
+2025-12-23 05:25:12,408 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/EditTheory.aspx.cs, Duration: 209ms
+2025-12-23 05:25:12,600 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/EditTheory.aspx.cs
+2025-12-23 05:25:12,766 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/EditTheory.aspx.cs
+2025-12-23 05:25:12,933 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:25:13,118 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:25:13,431 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:25:13,618 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:25:13,791 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/StartExam.aspx.cs
+2025-12-23 05:25:14,128 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 104ms
+2025-12-23 05:25:14,567 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/StartExam.aspx.cs, Duration: 267ms
+2025-12-23 05:25:14,808 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/StartExam.aspx.cs
+2025-12-23 05:25:14,993 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/StartExam.aspx.cs
+2025-12-23 05:25:15,161 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:25:15,354 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:25:15,633 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:25:15,849 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:25:15,990 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/AdminPanel.aspx.cs
+2025-12-23 05:25:16,237 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2025-12-23 05:25:16,638 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/AdminPanel.aspx.cs, Duration: 222ms
+2025-12-23 05:25:16,803 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/AdminPanel.aspx.cs
+2025-12-23 05:25:17,047 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/AdminPanel.aspx.cs
+2025-12-23 05:25:17,256 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:25:17,453 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:25:17,696 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:25:17,886 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:25:18,094 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/ExamResult.aspx.designer.cs
+2025-12-23 05:25:18,385 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 89ms
+2025-12-23 05:25:18,827 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/ExamResult.aspx.designer.cs, Duration: 231ms
+2025-12-23 05:25:19,016 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/ExamResult.aspx.designer.cs
+2025-12-23 05:25:19,227 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/ExamResult.aspx.designer.cs
+2025-12-23 05:25:19,436 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:25:19,618 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:25:19,892 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:25:20,065 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:25:20,228 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/LoginPage.aspx.designer.cs
+2025-12-23 05:25:20,516 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 86ms
+2025-12-23 05:25:20,926 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/LoginPage.aspx.designer.cs, Duration: 244ms
+2025-12-23 05:25:21,127 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/LoginPage.aspx.designer.cs
+2025-12-23 05:25:21,328 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/LoginPage.aspx.designer.cs
+2025-12-23 05:25:21,526 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:25:21,697 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:25:21,970 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:25:22,164 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:25:22,344 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/TheoryExam.aspx.designer.cs
+2025-12-23 05:25:22,671 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 89ms
+2025-12-23 05:25:23,115 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/TheoryExam.aspx.designer.cs, Duration: 267ms
+2025-12-23 05:25:23,315 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/TheoryExam.aspx.designer.cs
+2025-12-23 05:25:23,471 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/TheoryExam.aspx.designer.cs
+2025-12-23 05:25:23,668 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:25:23,854 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:25:24,135 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:25:24,294 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:25:24,517 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/Leaderboard.aspx.cs
+2025-12-23 05:25:24,842 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2025-12-23 05:25:25,300 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/Leaderboard.aspx.cs, Duration: 270ms
+2025-12-23 05:25:25,485 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/Leaderboard.aspx.cs
+2025-12-23 05:25:25,649 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/Leaderboard.aspx.cs
+2025-12-23 05:25:25,818 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:25:26,024 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:25:26,283 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:25:26,459 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:25:26,624 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/AdminQueue.aspx.designer.cs
+2025-12-23 05:25:26,890 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 86ms
+2025-12-23 05:25:27,275 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/AdminQueue.aspx.designer.cs, Duration: 202ms
+2025-12-23 05:25:27,476 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/AdminQueue.aspx.designer.cs
+2025-12-23 05:25:27,656 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/AdminQueue.aspx.designer.cs
+2025-12-23 05:25:27,876 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:25:28,042 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:25:28,273 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:25:28,435 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:25:28,610 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/AdminLeaderboard.aspx.designer.cs
+2025-12-23 05:25:28,871 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 89ms
+2025-12-23 05:25:29,294 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/AdminLeaderboard.aspx.designer.cs, Duration: 220ms
+2025-12-23 05:25:29,502 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/AdminLeaderboard.aspx.designer.cs
+2025-12-23 05:25:29,663 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/AdminLeaderboard.aspx.designer.cs
+2025-12-23 05:25:29,892 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:25:30,064 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:25:30,326 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Online-Examination-System-3622.git:kavia-dev
+2025-12-23 05:25:30,533 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f9f44180e50>
+2025-12-23 05:25:30,740 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/MCQSet.aspx.cs
+2025-12-23 05:25:31,076 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 97ms
+2025-12-23 05:25:31,471 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: OnlineExamSystem/MCQSet.aspx.cs, Duration: 199ms
+2025-12-23 05:25:31,674 - Knowledge - INFO - persist search terms embedding for OnlineExamSystem/MCQSet.aspx.cs
+2025-12-23 05:25:31,904 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/3622/b1604py/Online-Examination-System-3622/OnlineExamSystem/MCQSet.aspx.cs
+2025-12-23 05:25:32,101 - Knowledge - INFO - Loaded 50 files from persisted knowledge
+2025-12-23 05:25:32,273 - Knowledge - INFO - load persisted knowledge: end
+2025-12-23 05:25:32,494 - Knowledge - INFO - Redis support added with prefix knowledge:b1604py:
+2025-12-23 05:25:32,835 - Knowledge - INFO - Starting knowledge initialization for ID: 1zcWrU-b1604py
+2025-12-23 05:25:32,997 - Knowledge - INFO - 🔍 Checking Redis for build_id: b1604py
+2025-12-23 05:25:33,194 - Knowledge - INFO - 🔍 Full session ID: 1zcWrU-b1604py
+2025-12-23 05:25:33,419 - Knowledge - INFO - 🔍 Redis prefix will be: knowledge:b1604py:
+2025-12-23 05:25:33,617 - Knowledge - INFO - 🔍 Using attached load_from_redis() method
+2025-12-23 05:25:33,795 - Knowledge - INFO - 🔍 Attempting to load knowledge from Redis...
+2025-12-23 05:25:34,008 - Knowledge - INFO - 🔍 Using derived instance_id for Redis lookup: b1604py
+2025-12-23 05:25:34,239 - Knowledge - INFO - ✅ Redis cache found! Loading knowledge...
+2025-12-23 05:25:34,464 - Knowledge - INFO - ✅ Successfully loaded from Redis: 50 files
+2025-12-23 05:25:34,646 - Knowledge - INFO - ✅ Redis load complete: 50 files in 1.03s
+2025-12-23 05:25:34,828 - Knowledge - INFO - ⚡ Total Redis path: 1.03s (vs ~300s from disk)
+2025-12-23 05:25:35,013 - Knowledge - INFO - Saving knowledge to Redis...
+2025-12-23 05:25:35,251 - Knowledge - INFO - Knowledge saved to Redis successfully
